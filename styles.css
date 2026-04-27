@@ -195,6 +195,13 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
 .section { padding: 100px 0; }
 .section-sm { padding: 60px 0; }
 .section-dark { background: var(--bg-dark); color: white; }
+.section-dark .section-title { color: white; }
+.section-dark .section-subtitle { color: rgba(255,255,255,0.7); }
+.section-dark .section-tag {
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.9);
+  border: 1px solid rgba(255,255,255,0.2);
+}
 .section-soft { background: var(--bg-soft); }
 
 .section-tag {
@@ -1350,6 +1357,11 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
   margin-bottom: 20px;
 }
 .page-hero-breadcrumb span { color: var(--accent); }
+.page-hero .section-tag {
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.9);
+  border: 1px solid rgba(255,255,255,0.2);
+}
 
 /* ─── OFFER CARDS ─── */
 .offer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
